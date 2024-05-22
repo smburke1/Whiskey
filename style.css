@@ -1,0 +1,71 @@
+body{
+    font-family: arial;
+    background:#333;
+  
+  }
+  h2 {
+   font-size: 40px;
+  }
+  
+  .container {
+    width: 500px;
+    background: #f0f8ff;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 50px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5%;
+  
+  }
+  
+  .review {
+  
+  }
+  
+  .img-container {
+  
+  }
+  
+  #whiskey-img {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px #000;
+  }
+  
+  #cocktail{
+    font-size: 22px;
+    color: maroon;
+  }
+  #alcoholtype{
+    
+  }
+  #info {
+  
+  }
+  
+  .buttons-container {
+  
+  }
+  button {
+    padding:10px 20px;
+    background: lightblue;
+    
+  }
+  .prev-btn {
+  
+  }
+  .next-btn {
+  
+  }
+  
+  .random-btn{
+    margin-top: 5px;
+  
+  }
