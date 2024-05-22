@@ -64,6 +64,10 @@ h2 {
     background: lightblue;
     
   }
+  button:hover{
+    cursor: pointer;
+    background-color: rgb(58, 111, 207);
+  }
   .prev-btn {
   
   }
