@@ -123,4 +123,12 @@ body{
   
   }
   
-  
+  .random-drinks{
+
+  }
+  #random-one, #random-two{
+    background: #f0f8ff;
+    padding: 5px;
+    margin: 15px 10% 0px 10%;
+    
+  }
