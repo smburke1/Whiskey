@@ -19,6 +19,21 @@ const reviews = [
     alcoholtype: "Scotch",
     img: "https://www.acouplecooks.com/wp-content/uploads/2019/06/Whiskey-Sour-111.jpg",
     info: "The whiskey sour is a mixed drink containing whiskey (often bourbon), lemon juice, sugar, and optionally, a dash of egg white or cocktails foamer. With the egg white, it is sometimes called a Boston Sour. With a few bar spoons of full-bodied red wine floated on top, it is often referred to as a New York Sour. It is shaken and served either straight up or over ice.",
+    },
+    {
+    id: 4,
+    cocktail: "Drink 4",
+    alcoholtype: "Scotch",
+    img: "https://www.acouplecooks.com/wp-content/uploads/2019/06/Whiskey-Sour-111.jpg",
+    info: "The whiskey sour is a mixed drink containing whiskey (often bourbon), lemon juice, sugar, and optionally, a dash of egg white or cocktails foamer. With the egg white, it is sometimes called a Boston Sour. With a few bar spoons of full-bodied red wine floated on top, it is often referred to as a New York Sour. It is shaken and served either straight up or over ice.",
+    },
+    {
+    id: 5,
+    cocktail: "Whiskey Coke",
+    alcoholtype: "Any whiskey will do",
+    img: "https://www.acouplecooks.com/wp-content/uploads/2019/06/Whiskey-Sour-111.jpg",
+    info: "A simple, but classic way of drinking your whiskey.  Whether you want a Jack & coke or one of the many variations, if you like whiskey you cant go wront here and no one will judge you for it.",
+
     }
 ]
 
@@ -29,7 +44,6 @@ const info = document.getElementById("info");
 
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
-const randomBtn = document.querySelector(".random-btn");
 
 let currentItem = 0;
 
@@ -62,8 +76,3 @@ prevBtn.addEventListener('click', function() {
     showDrink(currentItem);
     
    });
-
-randomBtn.addEventListener("click", function() {
-    currentItem= Math.floor(Math.random() * reviews.length);
-    showDrink(currentItem);
-});
