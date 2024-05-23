@@ -30,7 +30,7 @@ const reviews = [
     {
     id: 5,
     cocktail: "Whiskey Coke",
-    alcoholtype: "Any whiskey will do",
+    alcoholtype: "Often Jack Daniel's but any ol' whiskey will do.",
     img: "https://www.acouplecooks.com/wp-content/uploads/2019/06/Whiskey-Sour-111.jpg",
     info: "A simple, but classic way of drinking your whiskey.  Whether you want a Jack & coke or one of the many variations, if you like whiskey you cant go wront here and no one will judge you for it.",
 
@@ -76,3 +76,11 @@ prevBtn.addEventListener('click', function() {
     showDrink(currentItem);
     
    });
+   function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
