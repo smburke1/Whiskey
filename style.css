@@ -124,9 +124,12 @@ body{
   }
   
   .random-drinks #whiskey-img{
-
+    height:100px;
+    width:100px;
+    border-radius: 5%;
     margin-left: 30px;
     margin-bottom: 30px;
+    box-shadow: none;
   }
   #random-one, #random-two{
     background: #f0f8ff;
