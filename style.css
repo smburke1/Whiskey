@@ -123,12 +123,18 @@ body{
   
   }
   
-  .random-drinks{
+  .random-drinks #whiskey-img{
 
+    margin-left: 30px;
+    margin-bottom: 30px;
   }
   #random-one, #random-two{
     background: #f0f8ff;
     padding: 5px;
     margin: 15px 10% 0px 10%;
-    
+
+  }
+  #random-one img, #random-two img{
+    left: 50px;
+
   }
