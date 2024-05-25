@@ -107,6 +107,10 @@ body{
   .buttons-container {
   
   }
+
+  .container ul{
+    text-align: left;
+  }
   button {
     padding:10px 20px;
     background: lightblue;
