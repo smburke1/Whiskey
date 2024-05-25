@@ -134,7 +134,7 @@ body{
   #random-one, #random-two{
     background: #f0f8ff;
     padding: 5px;
-    margin: 15px 10% 0px 10%;
+    margin: 10px 10% 0px 10%;
 
   }
   #random-one img, #random-two img{
@@ -143,4 +143,10 @@ body{
   }
   .random-drinks p{
     
+  }
+
+  footer{
+    background: #f0f8ff;
+    padding: 5px;
+    margin: 10px 0% 0px 0%;
   }
