@@ -29,12 +29,19 @@ body {
 .topnav .icon {
   display: none;
 }
-/* */
+/* Styles for the full site */
 
 h1 {
   font-size: 40px;
   color: white;
   text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  margin-left: 16px;
 }
 
 footer{
