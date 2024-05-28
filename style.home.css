@@ -47,14 +47,31 @@ h3 {
   width: 180px;
 }
 
-.container-two{
-  background-color: white;
-  height: 600px;
-  width: 100%;
-}
-
 a:hover{
     opacity: .7;
     transition: .2s;
   }
-  
+
+.container-two{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 600px;
+  display: block;
+  margin: 40px auto 40px auto;
+  padding: 20px;
+}
+
+.about-me{
+  background-color: white;
+  height: 280px;
+  display: block;
+  margin: 40px auto 40px auto;
+  padding: 20px;
+}
+.about-me img{
+  float: left;
+  height:280px;
+  width: 170px;
+  padding-right: 20px;
+}
