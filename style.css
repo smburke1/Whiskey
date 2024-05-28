@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: monospace;
   background:#333;
 }
 
@@ -43,9 +43,11 @@ h2 {
   text-align: left;
   margin-left: 16px;
 }
-
+h4 {
+  font-size: 20px;
+}
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 footer{
