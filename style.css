@@ -3,6 +3,7 @@ body {
   background:#333;
 }
 
+/* Nav Bar */
 .topnav {
   background: linear-gradient(to left, #111, #444);
   overflow: hidden;
@@ -27,4 +28,18 @@ body {
 
 .topnav .icon {
   display: none;
+}
+/* */
+
+h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+footer{
+  background: linear-gradient(to left, #111, #444);
+  color: white;
+  padding: 20px;
+  margin: 10px 0% 0px 0%;
 }
