@@ -1,0 +1,112 @@
+.test-cont{
+
+}
+
+.test {
+    float: left;
+    background: #f0f8ff;
+    height: 300px;
+    width: 150px;
+    border-radius: 5%;
+    font-size: 18px;
+}
+
+a {
+    color: black;
+}
+
+.test li {
+    padding-bottom: 10px;
+}
+
+.test h4 {
+    text-align: center;
+}
+
+.container {
+    height: 800px;
+    width: 500px;
+    background: #f0f8ff;
+    display: block;
+    margin: 50px auto 50px auto;
+    padding: 10px 20px 50px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5%;
+  
+  }
+
+.review {
+  
+}
+
+.img-container {
+
+}
+
+#whiskey-img {
+height: 200px;
+width: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+box-shadow: 10px 10px 10px #000;
+}
+
+#cocktail{
+    font-size: 22px;
+    color: maroon;
+  }
+
+#alcoholtype{
+    
+  }
+  #info {
+  
+  }
+  
+  .buttons-container {
+  
+  }
+
+  .container ul{
+    text-align: left;
+  }
+  button {
+    padding:10px 20px;
+    background: lightblue;
+    
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: rgb(58, 111, 207);
+  }
+  .prev-btn {
+  
+  }
+  .next-btn {
+  
+  }
+  
+  .random-drinks #whiskey-img{
+    height:100px;
+    width:100px;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: none;
+  }
+  #random-one, #random-two{
+    background: #f0f8ff;
+    padding: 5px;
+    margin: 10px 10% 0px 10%;
+
+  }
+  #random-one img, #random-two img{
+    left: 50px;
+
+  }
+  .random-drinks p{
+    
+  }
