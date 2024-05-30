@@ -72,7 +72,10 @@ box-shadow: 10px 10px 10px #000;
   }
   
   .buttons-container {
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
   }
 
   .container ul{
@@ -83,9 +86,6 @@ box-shadow: 10px 10px 10px #000;
     color: #ddd;
     padding: 4%;
     border-radius: 5%;
-    bottom: 20px; /* Button 20px above the bottom */
-    left: 40%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
    
   }
   button:hover{
@@ -95,17 +95,11 @@ box-shadow: 10px 10px 10px #000;
   }
   .prev-btn {  
     padding:15px 20px;
-    position: absolute;
-    bottom: 150px; /* Button 20px above the bottom */
-    left: 45%; /* Center horizontally */
     
   
   }
   .next-btn {
     padding: 15px 20px;
-    position: absolute;
-    bottom: 150px; /* Button 20px above the bottom */
-    left: 55%; /* Center horizontally */
   
   }
   
