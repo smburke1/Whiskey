@@ -21,8 +21,8 @@ body {
 }
 
 .topnav a:hover {
-  background: rgb(189, 44, 19);
-  color: white;
+  background: rgb(209, 234, 255);
+  color: black;
   transition: .5s;
 }
 

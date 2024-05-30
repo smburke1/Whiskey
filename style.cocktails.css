@@ -75,12 +75,16 @@ box-shadow: 10px 10px 10px #000;
   }
   button {
     padding:10px 20px;
-    background: lightblue;
+    background: black;
+    color: #ddd;
+    padding: 4%;
+    border-radius: 5%;
     
   }
   button:hover{
     cursor: pointer;
-    background-color: rgb(58, 111, 207);
+    background: rgb(209, 234, 255);
+    color: black;
   }
   .prev-btn {
   
