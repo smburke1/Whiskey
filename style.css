@@ -3,6 +3,10 @@ body {
   background:#333;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Nav Bar */
 .topnav {
   background: linear-gradient(to left, #111, #444);

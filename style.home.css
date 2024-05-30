@@ -1,13 +1,3 @@
-#home-image img{
-  width: 80%;
-  height: 70%;
-  max-width: 1000px;
-  max-height: 700px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .slider{
   width: 800px;
   height: 500px;
@@ -34,6 +24,7 @@
   width: 800px;
   height: 500px;
 }
+
 #radio1:checked ~ .first{
   margin-left: 0;
 }
@@ -48,36 +39,48 @@
 }
 
 .navigation-auto{
-position: absolute;
-display: flex;
-justify-content: center;
-width:800px;
-margin-top: 450px;
-
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width:800px;
+  margin-top: 450px;
 }
+
 .navigation-auto div{
-border: 2px solid #fff;
-padding: 5px;
-border-radius: 10px;
-transition: 1s;
-cursor: pointer;
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+  cursor: pointer;
 }
+
 .navigation-auto div:not(:last-child) {
-margin-right: 40px;
+  margin-right: 40px;
+}
+/* --------*/
+
+#button-get-started {
+  background: rgb(209, 234, 255);
+  color: black;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 20px;
+  border-radius: 10%;
+  cursor: pointer;
+  
+
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
-background: #fff;
+#button-get-started:hover{
+  cursor: pointer;
+  background: rgb(221, 162, 35);
+  font-weight: bold;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
-background: #fff;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-background: #fff;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-background: #fff;}
 
+
+/* Container One*/
 .container-one{
   display: flex;
   flex-direction: row;
@@ -118,8 +121,8 @@ h3 {
 }
 
 a:hover{
-    opacity: .7;
-    transition: .2s;
+  opacity: .7;
+  transition: .2s;
   }
 
 .container-two{
@@ -132,17 +135,16 @@ a:hover{
   padding: 20px;
 }
 .container-two img{
-    float: left;
-    padding-right: 10px;
-    height:100px;
-    width: 100px;
+  float: left;
+  padding-right: 10px;
+  height:100px;
+  width: 100px;
 }
 
 #container-two-box-one, #container-two-box-two, #container-two-box-three {
-    background: rgb(209, 234, 255);;
-    margin: 10px;
-    padding: 10px 10px 10px 10px;
-
+  background: rgb(209, 234, 255);;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 .about-me{
