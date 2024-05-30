@@ -79,22 +79,33 @@ box-shadow: 10px 10px 10px #000;
     text-align: left;
   }
   button {
-    padding:10px 20px;
     background: black;
     color: #ddd;
     padding: 4%;
     border-radius: 5%;
-    
+    bottom: 20px; /* Button 20px above the bottom */
+    left: 40%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+   
   }
   button:hover{
     cursor: pointer;
     background: rgb(209, 234, 255);
     color: black;
   }
-  .prev-btn {
+  .prev-btn {  
+    padding:15px 20px;
+    position: absolute;
+    bottom: 150px; /* Button 20px above the bottom */
+    left: 45%; /* Center horizontally */
+    
   
   }
   .next-btn {
+    padding: 15px 20px;
+    position: absolute;
+    bottom: 150px; /* Button 20px above the bottom */
+    left: 55%; /* Center horizontally */
   
   }
   
