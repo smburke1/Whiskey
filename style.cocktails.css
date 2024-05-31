@@ -1,14 +1,16 @@
 .container-main{
-
+display: flex;
 }
 
 .switch-liquor-type{
-  float: left;
+  
+  flex-direction: column;
   background: #f0f8ff;
   height: 300px;
   width: 150px;
   border-radius: 5%;
   font-size: 18px;
+  margin-left: auto;
 }
 
 a {
@@ -29,11 +31,13 @@ a {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   height: 800px;
   width: 500px;
   background: #f0f8ff;
   display: block;
-  margin: 50px auto 50px auto;
+  margin: 0px auto 50px 20px;
   padding: 10px 20px 50px 20px;
   text-align: center;
   font-size: 18px;
