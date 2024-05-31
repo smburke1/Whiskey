@@ -206,6 +206,8 @@ let currentItem = 0;
 
 window.addEventListener('load', function(){
     showDrink(currentItem);
+
+    
 });
 
 function showDrink() {
@@ -219,8 +221,12 @@ function showDrink() {
     liTwo.textContent = item.liTwo;
     liThree.textContent = item.liThree;
     liFour.textContent = item.liFour;
+ 
     
 }
+
+
+
 
 //Next
 nextBtn.addEventListener('click', function() {
@@ -239,7 +245,7 @@ prevBtn.addEventListener('click', function() {
     showDrink(currentItem);
     
    });
-
+   
 whiskeyDrinks.addEventListener('click', function() {
     currentItem = 0;
     showDrink(currentItem);
