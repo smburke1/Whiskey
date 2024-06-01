@@ -60,7 +60,7 @@
 /* --------*/
 
 #button-get-started {
-  background: rgb(209, 234, 255);
+  background: #fff;
   color: black;
   display: block;
   margin-top: 50px;
@@ -68,15 +68,17 @@
   margin-right: auto;
   padding: 15px 20px;
   border-radius: 10%;
+  border-color: rgb(209, 234, 255);
   cursor: pointer;
+  font-weight: bold;
   
 
 }
 
 #button-get-started:hover{
   cursor: pointer;
-  background: rgb(221, 162, 35);
-  font-weight: bold;
+  background: #000;
+  color: #fff;
 }
 
 
@@ -129,11 +131,13 @@ a:hover{
 .container-two{
   display: flex;
   flex-direction: column;
-  background-color: white;
   height: 620px;
   display: block;
   margin: 40px auto 40px auto;
   padding: 20px;
+}
+.container-two h2 {
+  color: #fff;
 }
 .container-two img{
   float: left;
@@ -143,7 +147,7 @@ a:hover{
 }
 
 #container-two-box-one, #container-two-box-two, #container-two-box-three {
-  background: rgb(209, 234, 255);;
+  background: rgb(209, 234, 255);
   margin: 10px;
   padding: 10px 10px 10px 10px;
 }
