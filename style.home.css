@@ -1,3 +1,5 @@
+/* Slider */
+
 .slider{
   width: 800px;
   height: 500px;
@@ -36,6 +38,25 @@
 }
 #radio4:checked ~ .first{
   margin-left: -60%;
+}
+/* Media Query Slider  */
+@media screen and (max-width: 800px) {
+  .slider{
+    width: auto;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .slider{
+    width: auto;
+    height: 400px;
+  }
+  img {
+  }
 }
 
 .navigation-auto{

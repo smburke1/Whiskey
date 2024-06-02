@@ -60,3 +60,8 @@ footer{
   padding: 20px;
   margin: 10px 0% 0px 0%;
 }
+@media screen and (max-width: 500px) {
+  h1 {
+  font-size: 28px;
+}
+}
