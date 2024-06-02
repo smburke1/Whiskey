@@ -56,6 +56,7 @@
     height: 400px;
   }
   img {
+    background-size:cover;
   }
 }
 
@@ -149,6 +150,21 @@ a:hover{
   transition: .2s;
   }
 
+  @media screen and (max-width: 600px) {
+    .container-one{
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      margin-bottom: 0px;
+    }
+    #box-one, #box-two, #box-three {
+      height: 300px;
+      width: 200px;
+    }
+    
+  }
+
 .container-two{
   display: flex;
   flex-direction: column;
@@ -185,4 +201,14 @@ a:hover{
   height:280px;
   width: 170px;
   padding-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .about-me{
+    margin-top: 400px;
+    height:700px;
+  }
+  .about-me img{
+    float: none;
+  }
 }
