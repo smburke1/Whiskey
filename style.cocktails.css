@@ -1,10 +1,10 @@
 .container-main{
 display: flex;
+flex-direction: row;
 }
 
+
 .switch-liquor-type{
-  
-  flex-direction: column;
   background: #f0f8ff;
   height: 250px;
   width: 150px;
@@ -31,8 +31,6 @@ a {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
   height: 800px;
   width: 500px;
   background: #f0f8ff;
@@ -44,6 +42,12 @@ a {
   border-radius: 5%;
 }
 
+@media screen and (max-width: 500px) {
+  .switch-liquor-type {
+  }
+  .container {
+  }
+}
 .recipes {
   
 }
