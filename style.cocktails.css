@@ -42,12 +42,32 @@ a {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 500px) {
-  .switch-liquor-type {
+@media screen and (max-width: 600px) {
+  .container-main{
+    flex-direction: column;
   }
-  .container {
+  .switch-liquor-type{
+    font: 12px;
+    height: 130px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .switch-liquor-type a{
+    display: inline-block;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .container{
+    width: 80%;
+    height: 100%;
   }
 }
+
 .recipes {
   
 }
