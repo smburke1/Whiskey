@@ -1,6 +1,6 @@
 body {
   font-family: monospace;
-  background:#333;
+background-color: #333;  background-position: fill;
 }
 
 a {
