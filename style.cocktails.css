@@ -20,6 +20,8 @@ a {
 
 .switch-liquor-type li {
   padding-bottom: 10px;
+  color: rgba(7, 0, 70, 0.795);
+  font-weight: bold;
 }
 
 .switch-liquor-type h4 {
@@ -105,7 +107,7 @@ button:hover{
   padding: 15px 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 705px) {
   .container-main{
     flex-direction: column-reverse;
   }
@@ -118,13 +120,12 @@ button:hover{
     padding-bottom: 10px;
     text-align: center;
   }
-  .switch-liquor-type a{
-  }
+
   h2 {
     font-size: 20px;
   }
   .container{
-    width: 80%;
+    width: 85%;
     height: 800px;
   }
   #info{
@@ -134,8 +135,9 @@ button:hover{
     background-color: rgb(209, 234, 255);
     height: 0px;
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 160px;
   }
+  
   
 }
 
@@ -150,7 +152,5 @@ button:hover{
   #info{
     height:250px;
   }
-  #liFour{
-    height: 100px;
-  }
+
 }
