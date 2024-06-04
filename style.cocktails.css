@@ -42,32 +42,6 @@ a {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 600px) {
-  .container-main{
-    flex-direction: column;
-  }
-  .switch-liquor-type{
-    font: 12px;
-    height: 130px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .switch-liquor-type a{
-    display: inline-block;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  .container{
-    width: 80%;
-    height: 100%;
-  }
-}
-
 .recipes {
   
 }
@@ -129,4 +103,54 @@ button:hover{
 
 .next-btn {
   padding: 15px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .container-main{
+    flex-direction: column-reverse;
+  }
+  .switch-liquor-type{
+    font: 12px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .switch-liquor-type a{
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .container{
+    width: 80%;
+    height: 800px;
+  }
+  #info{
+    height:200px;
+  }
+  .switch-liquor-type ul {
+    background-color: rgb(209, 234, 255);
+    height: 0px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  h1{
+    font-size: 24px;
+  }
+  .container{
+    width: 75%;
+    height: 900px;
+  }
+  #info{
+    height:250px;
+  }
+  #liFour{
+    height: 100px;
+  }
 }

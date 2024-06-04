@@ -9,7 +9,7 @@ const reviews = [
     liOne: "2 Oz. Bourbon",
     liTwo: "3 Dashes of Angostura Bitters",
     liThree: "1/8 oz. Simple Syrup",
-    liFour: "Organge Peel & Maraschino Cherry for Garnishe",
+    liFour: "Organge Peel & Maraschino Cherry for Garnish",
     },     
     {
     id: 2,
@@ -235,7 +235,7 @@ const reviews = [
     cocktail: "#5 Hurricane",
     alcoholtype: "Rum",
     img: "https://www.liquor.com/thmb/t4unQHZC2WbR4Z06EQPj47j8d28=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hurricane-720x720-primary-e5b3f57f86904ad39f87c96b1b0e0d1e.jpg",
-    info: "It is one of many popular drinks served in New Orleans. It is traditionally served in the tall, curvy eponymous hurricane glass. Disposable plastic cups are also used because New Orleans laws permit drinking in public and leaving a bar with a drink, but prohibit public drinking from glass containers.",
+    info: "It is one of many popular drinks served in New Orleans. It is traditionally served in the tall, curvy eponymous hurricane glass. Disposable plastic cups are also used because New Orleans laws permit drinking in public and leaving a bar with a drink.",
     liOne: "2 Oz. White Rum & 2 Oz. Dark Rum",
     liTwo: "1 Oz. Orange Juice, Lime Juice, & Passion Fruit",
     liThree: "1 Teapoon of Grenadine",
