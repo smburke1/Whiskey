@@ -1,11 +1,10 @@
+/* Style for all html pages*/
+
 body {
   font-family: monospace;
-background: url("https://images.unsplash.com/photo-1697534603929-e6b6f6620237?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-background-position: fill;
-opacity: .9;
-}
-#backgground img{
-  opacity: .5;
+  background: url("https://images.unsplash.com/photo-1697534603929-e6b6f6620237?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: fill;
+  opacity: .9;
 }
 
 a {
@@ -52,9 +51,11 @@ h2 {
   text-align: left;
   margin-left: 16px;
 }
+
 h4 {
   font-size: 20px;
 }
+
 p {
   font-size: 16px;
 }
@@ -65,6 +66,7 @@ footer{
   padding: 20px;
   margin: 10px 0% 0px 0%;
 }
+
 @media screen and (max-width: 500px) {
   h1 {
   font-size: 28px;
