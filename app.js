@@ -51,13 +51,13 @@ const reviews = [
     id: 5,
     header: "Top 5 Whiskey Cocktails",
     cocktail: "#5 Whiskey Coke",
-    alcoholtype: "Any ol' whiskey will do.",
+    alcoholtype: "Any Ol' Whiskey Will Do.",
     img: "https://images.unsplash.com/photo-1605806629664-1a050df0a913?q=80&w=1159&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     info: "A simple, but classic way of drinking your whiskey.  Whether you want a Jack & coke or one of the many variations, if you like whiskey you cant go wront here and no one will judge you for it.",
     liOne: "1.5 Oz. Whiskey",
     liTwo: "3 Coke",
     liThree: "Try 7up or Ginger Ale too",
-    liFour: "When in doubt, on the rocks works too!",
+    liFour: "Or on the Rocks!",
     },
     /*Tequila*/
     {
@@ -70,7 +70,7 @@ const reviews = [
     liOne: "1.5 Oz. Tequila",
     liTwo: "1 oz. Triple Sec",
     liThree: "3 oz. Sweet & Sour",
-    liFour: "Salt the rim of glass & garnish lime wedge",
+    liFour: "Salt & Lime Wedge",
     },     
     {
     id: 7,
@@ -94,7 +94,7 @@ const reviews = [
     liOne: "2 Oz. Tequla",
     liTwo: ".5 Oz. Lemon Juice",
     liThree: "4 Oz. Grapefruit Soda",
-    liFour: "Lime wheel",
+    liFour: "Lime Wheel",
     },
     {
     id: 9,
@@ -106,19 +106,19 @@ const reviews = [
     liOne: "2 Oz. Tequila",
     liTwo: "3.5 Oz. Bloody Mary Mix",
     liThree: ".5 Oz. Lime Juice",
-    liFour: "Lime, 2-4 Ddashes of Hot Sauce",
+    liFour: "Lime & Hot Sauce (Adjust To Taste)",
     },
     {
     id: 10,
     header: "Top 5 Tequila Cocktails",
     cocktail: "#5 Cadillac Margarita",
-    alcoholtype: "Pull out the good stuff",
+    alcoholtype: "Pull Out the Good Stuff!",
     img: "https://images.unsplash.com/photo-1544145945-b4744b209fc2?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     info: "Generally speaking the best margarita you will run into.  Feel free to added you higher shelf tequila and take your time sipping down this truelf delightful drink.",
     liOne: "1.5 Oz. Tequila",
     liTwo: "1 Oz. Grand Marnier",
     liThree: "2 Oz. Lime Juice & Agave Syrup",
-    liFour: "Salt the rim of glass & garnish lime wedge",
+    liFour: "Salt & Lime Wedge",
     },
     /*Vodka*/
     {
