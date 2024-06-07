@@ -227,7 +227,7 @@ const reviews = [
     liOne: "1.5 Oz. Rum",
     liTwo: "3 Oz. Coke",
     liThree: "Lime Widge",
-    liFour: "Try spiced rum for a different flavor!",
+    liFour: "Or Spiced Rum!",
     },
     {
     id: 20,
@@ -276,7 +276,7 @@ const reviews = [
     liOne: "1,5 Oz. Ginn",
     liTwo: "3 Oz. Tonic Water",
     liThree: "Lime Slice",
-    liFour: "Club Soda can replace Tonic Water",
+    liFour: "Or Try Club Soda",
     },
     {
     id: 24,
@@ -298,8 +298,8 @@ const reviews = [
     img: "https://culinaryginger.com/wp-content/uploads/Classic-Tom-Collins-5-735x490.jpg",
     info: "First memorialized in writing in 1876 by Jerry Thomas, the father of American mixology, this gin and sparkling lemonade drink is typically served in a Collins glass over ice with a cherry garnish. A non-alcoholic Collins mix mixer is produced, enjoyed by some as a soft drink.",
     liOne: "2 Oz. Gin",
-    liTwo: "3 Oz. Sweet & Sourr",
-    liThree: "1 Oz. club Soda",
+    liTwo: "3 Oz. Sweet & Sour",
+    liThree: "1 Oz. Club Soda",
     liFour: "Lemon Wheel & Cherry",
     }
 ]
