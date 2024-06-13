@@ -4,6 +4,7 @@ body {
   font-family: monospace;
   background: url("https://images.unsplash.com/photo-1697534603929-e6b6f6620237?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: fill;
+  background-attachment: fixed;
   opacity: .9;
 }
 
