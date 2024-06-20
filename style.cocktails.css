@@ -4,7 +4,7 @@
 }
 
 .switch-liquor-type{
-  background: #f0f8ff;
+  background: linear-gradient(to left, #333, #444);;
   height: 250px;
   width: 150px;
   border-radius: 5%;
@@ -19,7 +19,7 @@ a {
 
 .switch-liquor-type li {
   padding-bottom: 10px;
-  color: rgba(7, 0, 70, 0.795);
+  color: #fff;
   font-weight: bold;
 }
 
@@ -29,6 +29,7 @@ a {
 
 .switch-liquor-type a :hover{
   font-size: 20px;
+  color: red
 }
 
 .container {
