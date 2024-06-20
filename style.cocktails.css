@@ -25,11 +25,12 @@ a {
 
 .switch-liquor-type h4 {
   text-align: center;
+  color: #fff;
 }
 
 .switch-liquor-type a :hover{
   font-size: 20px;
-  color: red
+  color:rgb(209, 234, 255) ;
 }
 
 .container {
