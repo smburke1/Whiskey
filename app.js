@@ -327,7 +327,6 @@ let currentItem = 0;
 window.addEventListener('load', function(){
     showDrink(currentItem);
 
-    
 });
 
 function showDrink() {
@@ -342,7 +341,6 @@ function showDrink() {
     liThree.textContent = item.liThree;
     liFour.textContent = item.liFour;
  
-    
 }
 
 //Next & back buttons
