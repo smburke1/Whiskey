@@ -25,7 +25,7 @@ a {
 
 .switch-liquor-type h4 {
   text-align: center;
-  color: #fff;
+  color: rgb(209, 234, 255);
 }
 
 .switch-liquor-type a :hover{
@@ -125,7 +125,6 @@ button:hover{
     height:200px;
   }
   .switch-liquor-type ul {
-    background-color: rgb(209, 234, 255);
     height: 0px;
     padding-top: 5px;
     padding-bottom: 160px;
